@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct MyAccountView: View {
+    
     var body: some View {
         VStack{
             Text("Hello!")
+            
+            Button("Fetch Paragraph"){
+                let service = AppService()
+                service.fetchParagraphs()
+            }
         }
     }
 }
