@@ -16,6 +16,8 @@ class AppService {
 
 extension AppService {
     func fetchParagraphs() -> Void {
-     print("Fetched data")
+     print("Fetched data!")
+        
+        let list = [1,2,3,4]
     }
 }
