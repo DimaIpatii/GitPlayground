@@ -15,5 +15,7 @@ class AppService {
 }
 
 extension AppService {
-    
+    func fetchParagraphs() -> Void {
+        
+    }
 }
