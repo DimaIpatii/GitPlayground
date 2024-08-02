@@ -16,6 +16,6 @@ class AppService {
 
 extension AppService {
     func fetchParagraphs() -> Void {
-        
+     print("Fetched data")
     }
 }
