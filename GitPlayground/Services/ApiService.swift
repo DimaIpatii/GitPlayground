@@ -16,7 +16,7 @@ class ApiService {
 
 extension ApiService {
     func fetchParagraphs() -> String {
-     print("Fetched data!")
+        print("Fetched string!")
         
         return "Hello, World!"
     }
