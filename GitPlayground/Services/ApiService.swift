@@ -8,18 +8,17 @@
 import Foundation
 
 
-class AppService {
+class ApiService {
     init(){
         
     }
 }
 
-extension AppService {
-    func fetchParagraphs() -> Void {
 
-     print("Fetched data!")
+extension ApiService {
+    func fetchParagraphs() -> String {
+        print("Fetched string!")
         
-        let list = [1,2,3,4]
-
+        return "Hello, World!"
     }
 }
