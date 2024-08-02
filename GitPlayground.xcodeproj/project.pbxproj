@@ -11,6 +11,7 @@
 		326131562C5768A8009F7ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326131552C5768A8009F7ED4 /* ContentView.swift */; };
 		326131582C5768AA009F7ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326131572C5768AA009F7ED4 /* Assets.xcassets */; };
 		3261315B2C5768AA009F7ED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3261315A2C5768AA009F7ED4 /* Preview Assets.xcassets */; };
+		327BBD5D2C5D67CA00009AD8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BBD5C2C5D67CA00009AD8 /* ApiService.swift */; };
 		32B588C62C5CB08700ED54E5 /* MyComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B588C52C5CB08700ED54E5 /* MyComments.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		326131552C5768A8009F7ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		326131572C5768AA009F7ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3261315A2C5768AA009F7ED4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		327BBD5C2C5D67CA00009AD8 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		32B588C52C5CB08700ED54E5 /* MyComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 				326131532C5768A8009F7ED4 /* GitPlaygroundApp.swift */,
 				326131552C5768A8009F7ED4 /* ContentView.swift */,
 				32B588C42C5CB06D00ED54E5 /* Models */,
+				327BBD5B2C5D67A300009AD8 /* Services */,
 				326131572C5768AA009F7ED4 /* Assets.xcassets */,
 				326131592C5768AA009F7ED4 /* Preview Content */,
 			);
@@ -68,6 +71,14 @@
 				3261315A2C5768AA009F7ED4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		327BBD5B2C5D67A300009AD8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				327BBD5C2C5D67CA00009AD8 /* ApiService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		32B588C42C5CB06D00ED54E5 /* Models */ = {
@@ -150,6 +161,7 @@
 			files = (
 				32B588C62C5CB08700ED54E5 /* MyComments.swift in Sources */,
 				326131562C5768A8009F7ED4 /* ContentView.swift in Sources */,
+				327BBD5D2C5D67CA00009AD8 /* ApiService.swift in Sources */,
 				326131542C5768A8009F7ED4 /* GitPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
