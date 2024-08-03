@@ -22,6 +22,16 @@ struct MyAccountView: View {
                 let service = ApiService()
                 service.deleteParagraph()
             }
+            
+            Button("Add Paragraph"){
+                let service = ApiService()
+                service.addParagraph()
+            }
+            
+            Button("Update Paragraph"){
+                let service = ApiService()
+                service.updateParagraph()
+            }
         }
     }
 }
