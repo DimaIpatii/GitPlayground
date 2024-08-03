@@ -10,7 +10,7 @@ import Foundation
 
 /*
  PRACTICE
- [] - Stashing
+ [x] - Stashing
  [] - Pull Request - request to merge branch
  [] - Pull Request - merge all commits
  [] - Pull Request - squash and merge
