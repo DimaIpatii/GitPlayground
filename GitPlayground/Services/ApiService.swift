@@ -8,14 +8,32 @@
 import Foundation
 
 
-class AppService {
+class ApiService {
+
     init(){
         
     }
 }
 
-extension AppService {
-    func fetchParagraphs() -> Void {
-     print("Fetched data")
+extension ApiService {
+    func fetchParagraphs() -> String {
+        print("Fetched string!")
+        
+        return "Hello, World!"
     }
+    
+    func deleteParagraph() -> Void {
+        print("The paragraph has been deleted with success!")
+    }
+  
+    func addParagraph() -> Void {
+        print("The paragraph has been added with success!")
+    }
+    
+    func updateParagraph() -> Void {
+        print("The paragraph has been updated with success!")
+        
+        print("Fixed")
+    }
+
 }
