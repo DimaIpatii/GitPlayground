@@ -29,4 +29,8 @@ extension ApiService {
     func addParagraph() -> Void {
         print("The paragraph has been added with success!")
     }
+    
+    func updateParagraph() -> Void {
+        print("The paragraph has been updated with success!")
+    }
 }
