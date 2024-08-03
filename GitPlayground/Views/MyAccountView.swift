@@ -17,6 +17,11 @@ struct MyAccountView: View {
                 let service = ApiService()
                 let paragraph = service.fetchParagraphs()
             }
+            
+            Button("Delete Paragraph"){
+                let service = ApiService()
+                service.deleteParagraph()
+            }
         }
     }
 }
