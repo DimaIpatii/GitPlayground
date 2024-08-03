@@ -13,7 +13,7 @@ struct MyAccountView: View {
         VStack{
             Text("Hello!")
             
-            Button("Fetch Paragraph"){
+            Button("Get Paragraph"){
                 let service = ApiService()
                 let paragraph = service.fetchParagraphs()
             }
