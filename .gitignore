@@ -95,3 +95,6 @@ docs/doc-generated/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore specific user state file
+GitPlayground.xcodeproj/project.xcworkspace/xcuserdata/Dima.xcuserdatad/UserInterfaceState.xcuserstate
