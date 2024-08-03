@@ -1,0 +1,97 @@
+# Xcode
+.DS_Store
+*.swp
+*~.nib
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# User-specific Xcode files
+xcuserdata
+
+# Build products
+build/
+DerivedData/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/*
+
+# Index
+*.pbxuser
+*.perspectivev3
+*.xcscmblueprint
+
+# Build generated
+*.app
+*.app.dSYM
+*.framework
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Swift Package Manager
+.swiftpm
+.build/
+
+# Objective-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode Automatic Device Support Files
+DeviceSupport/
+
+# Xcode custom templates
+.ide_template/
+.ide_templates/
+
+# AppCode
+.idea/
+
+# Generated documentation
+docs/doc-generated/
+
+# Unit test scheme
+*.xcscheme
+
+# macOS
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
