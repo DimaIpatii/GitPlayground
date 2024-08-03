@@ -15,7 +15,7 @@ struct MyAccountView: View {
             
             Button("Fetch Paragraph"){
                 let service = ApiService()
-                service.fetchParagraphs()
+                let paragraph = service.fetchParagraphs()
             }
         }
     }
