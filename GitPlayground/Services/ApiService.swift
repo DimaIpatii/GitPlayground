@@ -9,11 +9,11 @@ import Foundation
 
 
 class ApiService {
+
     init(){
         
     }
 }
-
 
 extension ApiService {
     func fetchParagraphs() -> String {
@@ -35,4 +35,5 @@ extension ApiService {
         
         print("Fixed")
     }
+
 }
