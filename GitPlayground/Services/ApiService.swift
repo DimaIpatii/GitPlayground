@@ -32,5 +32,7 @@ extension ApiService {
     
     func updateParagraph() -> Void {
         print("The paragraph has been updated with success!")
+        
+        print("Fixed")
     }
 }
