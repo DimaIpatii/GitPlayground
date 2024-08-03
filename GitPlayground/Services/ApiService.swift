@@ -25,4 +25,12 @@ extension ApiService {
     func deleteParagraph() -> Void {
         print("The paragraph has been deleted with success!")
     }
+  
+    func addParagraph() -> Void {
+        print("The paragraph has been added with success!")
+    }
+    
+    func updateParagraph() -> Void {
+        print("The paragraph has been updated with success!")
+    }
 }
