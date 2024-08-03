@@ -21,4 +21,8 @@ extension ApiService {
         
         return "Hello, World!"
     }
+    
+    func deleteParagraph() -> Void {
+        print("The paragraph has been deleted with success!")
+    }
 }
